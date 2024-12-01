@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "carmy-expo",
+    "slug": "carmy-expo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rochambeau314.carmyexpo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rochambeau314.carmyexpo"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b4b4044f-c5f2-48ef-9d70-906092f69020"
+      }
+    },
+    "owner": "rochambeau314",
+    "updates": {
+      "url": "https://u.expo.dev/b4b4044f-c5f2-48ef-9d70-906092f69020"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
